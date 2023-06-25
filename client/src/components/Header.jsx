@@ -18,24 +18,18 @@ function Header() {
   return (
     <header
       style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(calc(-100% - 16px))' }}
-      className={`fixed top-4 left-52 w-3/4 rounded-full bg-zinc-950 bg-opacity-60 text-white py-3 px-16 flex items-center justify-between transition-all duration-300`}
+      className={`fixed top-4 left-52 w-3/4 rounded-full bg-background border border-zinc-800 py-3 px-16 flex items-center justify-between transition-all duration-300`}
     >
-      <h1 className="text-2xl font-bold">JO</h1>
+      <h1 className="text-xl uppercase font-semibold text-zinc-500 tracking-wide">Joshua Ow</h1>
       <nav>
         {/* Replace with your navigation */}
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-4 text-zinc-500 ">
           <li>Home</li>
-          <li>About</li>
+          <li>Skills</li>
+          <li>Projects</li>
           <li>Contact</li>
         </ul>
       </nav>
-
-      <ul className="flex space-x-4">
-          <li>icon</li>
-          <li>icon</li>
-          <li>icon</li>
-          <li>icon</li>
-        </ul>
     </header>
   );
 }
