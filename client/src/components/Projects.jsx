@@ -6,7 +6,7 @@ import { faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import tail from '../../public/tailwind.png'
 import express from '../../public/express.png'
 import mongo from '../../public/mongo.png'
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
     const [isHovered, setHovered] = useState(false);
@@ -17,7 +17,7 @@ const Projects = () => {
                 <h2 className="text-2xl text-zinc-300 font-semibold self-start ">Recent Work</h2>
             </div>
         
-            <div className="flex justify-between  bg-zinc-800 py-8 rounded-3xl">
+            <div className="flex justify-between items-center bg-zinc-700 py-8 rounded-3xl">
                 <div 
                     onMouseEnter={() => setHovered(true)}
                     onMouseLeave={() => setHovered(false)}
@@ -45,8 +45,8 @@ const Projects = () => {
                     <span className="text-white text-opacity-50 font-light text-lg pr-8">
                     This project automated a complex, hands-on options chain contest, replacing an inefficient Excel spreadsheet with a real-time platform. The system dramatically increased efficiency, freeing company resources for core operations. A dynamic leaderboard, updating every five minutes, combined with comprehensive entry-based statistics and stock market comparisons, enhanced user engagement and created a high potential for lead generation. The addition of an all-time leaderboard incentivized consistent performance, fostering long-term user commitment. This streamlined solution not only addressed operational efficiency but also promoted user interaction and business development.
                     </span>
-                    <div className="">
-                        <a href="" target="_blank">View site <FontAwesomeIcon icon={faArrowUpRightFromSquare} className="" /></a>
+                    <div className="mt-4">
+                        <a href="https://contest.stratalerts.com/" target="_blank" className="bg-rose-500 hover:bg-rose-600 w-36 h-8 flex items-center justify-center rounded-full text-zinc-800 group">Visit site <FontAwesomeIcon icon={faArrowRightLong} className=" ml-2 group-hover:rotate-180 transition-transform duration-300 ease-in-out" /></a>
                     </div>
                 </div>
             </div>
