@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import Hero from './components/Hero'
 import Header from './components/Header'
+import Skills from './components/Skills'
 
 function App() {
 
   return (
     <div className=' bg-background mx-auto h-screen'>
       <Header/>
-      <div className='mt-16 mx-8 py-24 max-w-screen-2xl flex justify-center '>
+      <div className=' flex justify-center flex-col '>
         <Hero />
+        <Skills />
       </div>
       
     </div>
