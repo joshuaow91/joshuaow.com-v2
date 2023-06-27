@@ -9,7 +9,7 @@ import { faGear, faLaptopCode, faLongArrowRight, faMobileScreen, faScrewdriverWr
 const Skills = () => {
 
     return (
-        <div className='flex items-center w-full justify-center py-20 bg-stone-600 gap-6'>
+        <div className='flex items-center w-full justify-center py-20 bg-slate-600 gap-6'>
             <div className='w-1/3 flex flex-col items-center gap-4'>
                 <h2 className='text-4xl text-stone-300 tracking-wide self-start font-paytone uppercase'> <FontAwesomeIcon icon={faScrewdriverWrench} className="text-zinc-400 mr-3" /> Skills & Tools </h2> 
                 <span className='text-sm font-light text-zinc-300 self-start'> Here are some of the skills and tools I employ in building my projects <FontAwesomeIcon icon={faLongArrowRight} className='ml-2' /></span>
