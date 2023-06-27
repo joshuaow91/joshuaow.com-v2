@@ -22,14 +22,14 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col justify-center  pl-6 w-2/3">
-                    <h1 className=" text-5xl font-extralight text-zinc-400 ">Hello, my name is Josh.</h1> 
+                    <h1 className=" text-5xl font-extralight text-stone-400 ">Hello, my name is Josh.</h1> 
                     <h2 className="mt-4 font-semibold tracking-wide uppercase text-7xl text-stone-300 font-paytone italic">Full-stack Engineer</h2>
-                    <span className="mt-8 text-lg  font-light text-zinc-500 pr-20"> I specialize in crafting end-to-end software solutions, meticulously optimizing each layer to ensure optimal performance and a seamless user experience.</span>
+                    <span className="mt-8 text-lg  font-light text-stone-400 pr-20"> I specialize in crafting end-to-end software solutions, meticulously optimizing each layer to ensure optimal performance and a seamless user experience.</span>
                 <div className="flex gap-4">
-                    <a href="#" className="mt-10 rounded-full bg-rose-500 w-40 h-10 text-zinc-800 text-sm font-semibold hover:bg-rose-600 flex items-center justify-center group">
+                    <a href="#" className="mt-10 rounded-full uppercase bg-orange-300 w-40 h-10 text-zinc-800 text-sm font-semibold hover:bg-rose-600 flex items-center justify-center group">
                         View Resume <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
                     </a>
-                    <a href="#" className="mt-10 rounded-full border-2 border-zinc-700 w-40 h-10 text-zinc-400 text-sm font-semibold hover:border-zinc-800 flex items-center justify-center group">
+                    <a href="#" className="mt-10 rounded-full uppercase border-2 border-zinc-700 w-40 h-10 text-zinc-400 text-sm font-semibold hover:border-zinc-800 flex items-center justify-center group">
                         Contact Me <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
                     </a>
                 </div>
