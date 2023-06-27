@@ -17,13 +17,13 @@ function Header() {
 
   return (
     <header
-      style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(calc(-100% - 16px))' }}
-      className={`fixed top-4 left-0 w-full z-20 rounded-full bg-background bg-opacity-60 backdrop-blur-md py-3 px-16 flex items-center justify-between transition-all duration-300`}
+        style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(-100%)' }}
+        className={`fixed top-0 left-0 w-full z-20 bg-background bg-opacity-60 backdrop-blur-md py-3 px-16 flex items-center justify-between transition-all duration-300`}
     >
-        <h1 className='font-bold text-2xl  text-stone-300'>joshuaow<span className='text-orange-300 text-4xl'>.</span></h1>
+
+        <h1 className='font-bold text-2xl text-stone-300'>joshuaow<span className=' text-green-500 text-4xl'>.</span></h1>
       <nav>
-        {/* Replace with your navigation */}
-        <ul className="flex space-x-4 text-zinc-500 ">
+        <ul className="flex gap-10 text-stone-500 ">
           <li>Home</li>
           <li>Skills</li>
           <li>Projects</li>
