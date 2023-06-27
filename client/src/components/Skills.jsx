@@ -4,14 +4,18 @@ import React from 'react';
 import tail from '../../public/tailwind.png'
 import express from '../../public/express.png'
 import mongo from '../../public/mongo.png'
-import { faGear, faLaptopCode, faMobileScreen } from '@fortawesome/free-solid-svg-icons';
+import { faGear, faLaptopCode, faMobileScreen, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
 
     return (
-        <div className='flex flex-col items-center w-2/3 mx-auto  gap-6'>
-            <h2 className='text-xl text-zinc-300 font-semibold self-start pl-6'>Skills & Tools</h2>
-            <div className='grid grid-cols-4 gap-3 gap-x-10'>
+        <div className='flex items-center w-full justify-center py-20 bg-slate-600 gap-6 '>
+            <div className='w-1/3 flex flex-col items-center gap-4'>
+                <h2 className='text-2xl text-zinc-300 font-semibold self-start'> <FontAwesomeIcon icon={faScrewdriverWrench} className="text-zinc-400 mr-3" /> Skills & Tools</h2> 
+                <span className='text-base font-light text-white text-opacity-40  leading-6'>
+                Here are some of the skills and tools I employ in building my projects: I'm committed to lifelong learning, continually refining my expertise and embracing new programming languages with enthusiasm.                </span>
+            </div>
+            <div className='grid grid-cols-4 gap-3 gap-x-10 font-light border-2 border-zinc-800 rounded-3xl p-4 px-6 border-r-8 border-b-8 bg-zinc-700'>
                 <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-zinc-300 group-hover:animate-ping'/> React</span>
                 <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-zinc-300 group-hover:animate-ping'/> Javascript (ES6+)</span>
                 <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-zinc-300 group-hover:animate-ping'/>Node.js</span>

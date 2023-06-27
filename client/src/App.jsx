@@ -9,7 +9,7 @@ function App() {
   return (
     <div className=' bg-background mx-auto h-screen'>
       <Header/>
-      <div className=' flex justify-center flex-col '>
+      <div className=' flex justify-center flex-col gap-20 mt-20'>
         <Hero />
         <Skills />
         <div className='w-3/4  mx-auto'>

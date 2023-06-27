@@ -18,7 +18,7 @@ function Header() {
   return (
     <header
       style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(calc(-100% - 16px))' }}
-      className={`fixed top-4 left-52 w-3/4 z-20 rounded-full bg-background  py-3 px-16 flex items-center justify-between transition-all duration-300`}
+      className={`fixed top-4 left-0 w-full z-20 rounded-full bg-background bg-opacity-60 backdrop-blur-md py-3 px-16 flex items-center justify-between transition-all duration-300`}
     >
         <h1 className='font-bold text-2xl  text-zinc-400'>joshuaow<span className='text-rose-600 text-4xl'>.</span></h1>
       <nav>
