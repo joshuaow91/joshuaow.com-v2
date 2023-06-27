@@ -4,16 +4,18 @@ import React from 'react';
 import tail from '../../public/tailwind.png'
 import express from '../../public/express.png'
 import mongo from '../../public/mongo.png'
-import { faGear, faLaptopCode, faMobileScreen, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import { faGear, faLaptopCode, faLongArrowRight, faMobileScreen, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
 
     return (
-        <div className='flex items-center w-full justify-center py-20 bg-slate-600 gap-6 '>
+        <div className='flex items-center w-full justify-center py-20 bg-slate-600 gap-6'>
             <div className='w-1/3 flex flex-col items-center gap-4'>
-                <h2 className='text-2xl text-zinc-300 font-semibold self-start'> <FontAwesomeIcon icon={faScrewdriverWrench} className="text-zinc-400 mr-3" /> Skills & Tools</h2> 
+                <h2 className='text-2xl text-zinc-300 tracking-wide self-start font-paytone uppercase'> <FontAwesomeIcon icon={faScrewdriverWrench} className="text-zinc-400 mr-3" /> Skills & Tools </h2> 
+                <span className='text-sm font-light text-zinc-300 self-start'> Here are some of the skills and tools I employ in building my projects <FontAwesomeIcon icon={faLongArrowRight} className='ml-2' /></span>
                 <span className='text-base font-light text-white text-opacity-40  leading-6'>
-                Here are some of the skills and tools I employ in building my projects: I'm committed to lifelong learning, continually refining my expertise and embracing new programming languages with enthusiasm.                </span>
+                    I'm committed to lifelong learning, continually refining my expertise and embracing new programming languages with enthusiasm.                
+                </span>
             </div>
             <div className='grid grid-cols-4 gap-3 gap-x-10 font-light border-2 border-zinc-800 rounded-3xl p-4 px-6 border-r-8 border-b-8 bg-zinc-700'>
                 <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-zinc-300 group-hover:animate-ping'/> React</span>
