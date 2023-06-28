@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -18,18 +21,35 @@ function Header() {
   return (
     <header
         style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(-100%)' }}
-        className={`fixed top-0 left-0 w-full z-20 bg-background bg-opacity-60 backdrop-blur-md py-3 px-16 flex items-center justify-between transition-all duration-300`}
+        className={`fixed top-0 left-0 w-full z-20 bg-background  bg-opacity-60 backdrop-blur-md py-3 px-16 flex items-center justify-between transition-all duration-300`}
     >
-
+    <nav className='flex justify-between w-full items-center'>
         <h1 className='font-bold text-2xl text-stone-300'>joshuaow<span className=' text-green-500 text-4xl'>.</span></h1>
-      <nav>
-        <ul className="flex gap-10 text-stone-500 ">
-          <li>Home</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
+      
+      <ul className="flex gap-8 items-center">
+            <li>
+                <a href="" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faLinkedinIn} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faTwitter} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                </a>
+            </li>
         </ul>
-      </nav>
+    </nav>
+      
     </header>
   );
 }

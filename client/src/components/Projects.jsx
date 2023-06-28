@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="">
                 <h2 className="text-4xl text-stone-400 font-paytone tracking-wide uppercase self-start "> <FontAwesomeIcon icon={faBriefcase} className="text-zinc-500 mr-4" />Projects</h2>
             </div>
-            <div className="flex flex-col gap-8 mt-10 mb-10 border-2 border-zinc-950 bg-zinc-800 border-r-8 border-b-8 rounded-3xl">
+            <div className="flex flex-col gap-8 mt-10 mb-10 border-1 border-zinc-950 bg-zinc-800 border-r-8 border-b-8 rounded-3xl">
                 <div className="flex justify-between items-center gap-8 ">
                     <div className="w-2/3 flex flex-col gap-4  p-4 pl-8 py-8">
                         <h2 
