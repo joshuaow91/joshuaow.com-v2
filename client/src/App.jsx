@@ -7,12 +7,12 @@ import Projects from './components/Projects'
 function App() {
 
   return (
-    <div className=' bg-background h-auto '>
+    <div className=' bg-background h-auto w-full max-w-screen-xl mx-auto'>
       <div className='flex'>
         <Header/>
       </div>
-      <div className=' flex justify-center flex-col gap-20 mt-20'>
-        <div className='flex '>
+      <div className=' flex justify-center flex-col gap-10 mt-32 '>
+        <div className='flex justify-center'>
           <Hero />
         </div>
         <div className='flex'>
