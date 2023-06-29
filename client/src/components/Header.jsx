@@ -21,10 +21,10 @@ function Header() {
   return (
     <header
         style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(-100%)' }}
-        className={`fixed top-0 left-0 w-full z-20 bg-background  bg-opacity-60 backdrop-blur-md py-3 px-16 flex items-center justify-between transition-all duration-300`}
+        className={`fixed top-0 left-50 w-full z-20 bg-background max-w-screen-xl  bg-opacity-60 backdrop-blur-md py-3 px-16 flex items-center justify-between transition-all duration-300`}
     >
     <nav className='flex justify-between w-full items-center'>
-        <h1 className='font-bold text-2xl text-stone-300'>joshuaow<span className=' text-green-500 text-4xl'>.</span></h1>
+        <h1 className='font-bold text-2xl text-white text-opacity-75'>joshuaow<span className=' text-cyan-600 text-4xl'>.</span></h1>
       
       <ul className="flex gap-8 items-center">
             <li>

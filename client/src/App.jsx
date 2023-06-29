@@ -8,18 +8,20 @@ function App() {
 
   return (
     <div className=' bg-background h-auto w-full max-w-screen-xl mx-auto'>
-      <div className='flex'>
+      <div className='flex max-w-screen-xl'>
         <Header/>
       </div>
       <div className=' flex justify-center flex-col gap-10 mt-32 '>
         <div className='flex justify-center'>
           <Hero />
         </div>
+
         <div className='flex'>
+        <Projects/>
         <Skills />
         </div>
-        <div className='w-3/4  mx-auto'>
-          <Projects/>
+        <div className='flex '>
+          
         </div>
       </div>
       
