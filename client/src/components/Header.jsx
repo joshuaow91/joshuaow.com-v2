@@ -29,22 +29,22 @@ function Header() {
       <ul className="flex gap-8 items-center">
             <li>
                 <a href="" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faLinkedinIn} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                    <FontAwesomeIcon icon={faLinkedinIn} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>
             <li>
                 <a href="" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faTwitter} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                    <FontAwesomeIcon icon={faTwitter} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>
             <li>
                 <a href="" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faGithub} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                    <FontAwesomeIcon icon={faGithub} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>
             <li>
                 <a href="" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faEnvelope} className="text-stone-400 hover:text-stone-500 hover:-translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
+                    <FontAwesomeIcon icon={faEnvelope} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>
         </ul>

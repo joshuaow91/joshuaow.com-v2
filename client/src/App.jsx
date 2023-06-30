@@ -11,12 +11,12 @@ function App() {
       <div className='flex max-w-screen-xl'>
         <Header/>
       </div>
-      <div className=' flex justify-center flex-col gap-10 mt-32 '>
+      <div className=' flex justify-center flex-col gap-20 mt-32 '>
         <div className='flex justify-center'>
           <Hero />
         </div>
 
-        <div className='flex flex-col-reverse items-center'>
+        <div className='flex flex-col-reverse items-center gap-20'>
           <div className=''>
             <Projects/>
           </div>
