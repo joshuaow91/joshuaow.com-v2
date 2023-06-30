@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import SkillsTwo from './components/SkillsTwo'
 
 function App() {
 
@@ -17,12 +18,13 @@ function App() {
           <Hero />
         </div>
 
-        <div className='flex flex-col-reverse items-center gap-20'>
+        <div className='flex flex-col-reverse items-center gap-10 sm:gap-20'>
           <div className=''>
             <Projects/>
           </div>
           <div className=''>
             <Skills />
+            {/* <SkillsTwo/> */}
           </div>
         </div>
         <div className='flex mb-6'>

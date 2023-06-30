@@ -21,29 +21,29 @@ function Header() {
   return (
     <header
         style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(-100%)' }}
-        className={`fixed top-0 left-50 w-full z-20 bg-background max-w-screen-xl  bg-opacity-60 backdrop-blur-md py-3 px-10 pr-8 flex items-center justify-between transition-all duration-300`}
+        className={`fixed top-0 left-50 w-full z-20 bg-background max-w-screen-xl  bg-opacity-60 backdrop-blur-md py-3 sm:px-10 sm:pr-8 px-5 flex items-center justify-between transition-all duration-300`}
     >
     <nav className='flex justify-between w-full items-center'>
         <h1 className='font-bold text-2xl text-white text-opacity-75'>joshuaow<span className=' text-cyan-600 text-4xl'>.</span></h1>
       
-      <ul className="flex gap-8 items-center">
+      <ul className="flex gap-3 mt-4 sm:mt-0 sm:gap-8 items-center">
             <li>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/JoshuaOwDev" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faLinkedinIn} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>
             <li>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://www.twitter.com/JoshuaOwDev" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faTwitter} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>
             <li>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="https://www.github.com/joshuaow91" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>
             <li>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="mailto:joshuaow@gmail.com" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faEnvelope} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
                 </a>
             </li>

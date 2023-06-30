@@ -13,19 +13,19 @@ const Projects = () => {
 
     return (
         <div className="flex flex-col  w-full gap-10 p-8 pl-12 ">
-            <div className="flex justify-center border-b pb-5 border-zinc-800">
+            <div className="flex justify-center border-b pb-8 border-zinc-800">
                 <h2 className="text-4xl text-white text-opacity-75 font-paytone tracking-wide uppercase self-start "> <FontAwesomeIcon icon={faFolder} className="mr-2 text-cyan-500" /> Projects</h2>
             </div>
  
                 
-                <div className="flex flex-row-reverse justify-between items-center gap-4 ">
+                <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-4 ">
 
-                    <div className="w-2/3 flex flex-col gap-4  p-4 pl-8 py-8">
+                    <div className="lg:w-2/3 flex flex-col gap-4  p-4 pl-8 py-8">
                         <h2 
-                            className="text-2xl text-zinc-300 font-light flex ">
+                            className="text-2xl text-zinc-300 font-light flex flex-col sm:flex-row gap-3 sm:gap-0 ">
                                 BattleOptions (STAT Analytics) 
                                 <span 
-                                    className="bg-pink-300 self-center border-r-4 border-b-4 border-pink-700 rounded-full text-xs font-semibold text-zinc-900 tracking-wider py-1 px-3 ml-4"
+                                    className="bg-pink-300 self-start sm:self-center border-r-4 border-b-4 border-pink-700 rounded-full text-xs font-semibold text-zinc-900 tracking-wider py-1 px-3 sm:ml-4"
                                 >
                                     Full-Stack
                                 </span>
@@ -60,7 +60,7 @@ const Projects = () => {
                     <div 
                             onMouseEnter={() => setHovered(true)}
                             onMouseLeave={() => setHovered(false)}
-                            className="w-1/3 relative bg-zinc-500 rounded-3xl border-r-8 border-b-8 border-zinc-700"
+                            className="w-full md:w-1/2 lg:w-1/3 relative bg-zinc-500 rounded-3xl border-r-8 border-b-8 border-zinc-700"
                             style={{ height: '400px' }} 
                         >
                             <img 
