@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Header from './components/Header'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -24,8 +25,8 @@ function App() {
             <Skills />
           </div>
         </div>
-        <div className='flex '>
-          
+        <div className='flex mb-6'>
+          <Footer/>
         </div>
       </div>
       

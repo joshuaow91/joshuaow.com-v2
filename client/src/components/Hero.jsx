@@ -23,7 +23,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="">
+            <div className="flex-shrink-0">
                 <img 
                     src={Avatar} 
                     className="border-zinc-950 rounded-full border-r-8 border-b-8 border-1 grayscale brightness-100 hover:brightness-75 transition-all ease-in-out duration-500 h-80 w-80 "
