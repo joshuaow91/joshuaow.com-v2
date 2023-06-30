@@ -7,7 +7,7 @@ import Projects from './components/Projects'
 function App() {
 
   return (
-    <div className=' bg-background h-auto w-full max-w-screen-xl mx-auto'>
+    <div className=' bg-background h-auto w-full max-w-screen-xl mx-auto '>
       <div className='flex max-w-screen-xl'>
         <Header/>
       </div>
@@ -16,9 +16,13 @@ function App() {
           <Hero />
         </div>
 
-        <div className='flex'>
-        <Projects/>
-        <Skills />
+        <div className='flex flex-col-reverse items-center'>
+          <div className=''>
+            <Projects/>
+          </div>
+          <div className=''>
+            <Skills />
+          </div>
         </div>
         <div className='flex '>
           

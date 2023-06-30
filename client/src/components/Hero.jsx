@@ -7,7 +7,7 @@ import { faArrowRightLong, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 const Hero = () => {
 
     return (
-        <div className="flex justify-center gap-12  w-full items-center">
+        <div className="flex justify-center gap-24 p-6 w-full items-center">
 
             <div className="flex flex-col p-6">
                 <h1 className="mt-8 text-4xl font-extralight text-stone-300 text-opacity-75 ">Hello, my name is Josh.</h1> 
