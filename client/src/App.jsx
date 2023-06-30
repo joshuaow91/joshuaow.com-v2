@@ -19,7 +19,7 @@ function App() {
         </div>
 
         <div className='flex flex-col-reverse items-center gap-10 sm:gap-20'>
-          <div className=''>
+          <div className='' id='projects'>
             <Projects/>
           </div>
           <div className=''>
