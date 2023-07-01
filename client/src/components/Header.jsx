@@ -12,18 +12,22 @@ function Header() {
       const currentScrollTop = window.scrollY || document.documentElement.scrollTop;
       setIsScrollingUp(currentScrollTop < lastScrollTop);
       setLastScrollTop(currentScrollTop <= 0 ? 0 : currentScrollTop);
-    }
-
-    const handleTouchMove = (event) => {
-      event.preventDefault();
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    window.addEventListener('touchmove', handleTouchMove, { passive: false });
+    let timeoutId;
+
+    const handleScrollWithDelay = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        handleScroll();
+      }, 100); // Adjust the delay time as needed
+    };
+
+    window.addEventListener('scroll', handleScrollWithDelay, { passive: true });
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('touchmove', handleTouchMove);
+      clearTimeout(timeoutId);
+      window.removeEventListener('scroll', handleScrollWithDelay);
     };
   }, [lastScrollTop]);
 
@@ -34,10 +38,13 @@ function Header() {
       behavior: 'smooth',
     });
   };
-  
+
   return (
     <header
-      style={{ transform: isScrollingUp ? 'translateY(0)' : 'translateY(-100%)' }}
+      style={{
+        transform: isScrollingUp ? 'translateY(0)' : 'translateY(-100%)',
+        transitionDelay: isScrollingUp ? '0s' : '0.2s', // Adjust the delay time as needed
+      }}
       className={`fixed top-0 left-50 w-full z-20 bg-background max-w-screen-xl bg-opacity-60 backdrop-blur-md py-3 sm:px-10 sm:pr-8 px-5 flex items-center justify-between transition-all duration-300`}
     >
       <nav className='flex justify-between w-full items-center'>
