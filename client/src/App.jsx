@@ -1,7 +1,6 @@
-import { useState } from 'react'
+import React from 'react'
 import Hero from './components/Hero'
 import Header from './components/Header'
-import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import SkillsTwo from './components/SkillsTwo'
@@ -23,7 +22,6 @@ function App() {
             <Projects/>
           </div>
           <div className=''>
-            {/* <Skills /> */}
             <SkillsTwo/>
           </div>
         </div>

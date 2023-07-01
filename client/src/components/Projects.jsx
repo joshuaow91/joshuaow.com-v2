@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import light from '../../public/lightOne.png'
 import dark from '../../public/darkOne.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,12 +7,35 @@ import tail from '../../public/tailwind.png'
 import express from '../../public/express.png'
 import mongo from '../../public/mongo.png'
 import { faArrowRightLong, faFolder } from "@fortawesome/free-solid-svg-icons";
+import { useInView } from "framer-motion";
+import { motion } from 'framer-motion';
 
 const Projects = () => {
     const [isHovered, setHovered] = useState(false);
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
+    const variants = {
+        hidden: { opacity: 0, y: 50 },
+        show: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                type: "spring",
+                stiffness: 100,
+                damping: 20,
+            },
+        },
+    };
 
     return (
-        <div className="flex flex-col  w-full gap-10 md:p-8 md:pl-12 ">
+        <motion.div 
+            className="flex flex-col  w-full gap-10 md:p-8 md:pl-12 "
+            ref={ref}
+            variants={variants}
+            initial='hidden'
+            animate={isInView ? 'show' : 'hidden'}
+        >
             <div className="flex justify-center mx-4 border-b pb-8 border-zinc-800">
                 <h2 className="text-4xl text-white text-opacity-75 font-paytone tracking-wide uppercase self-start "> <FontAwesomeIcon icon={faFolder} className="mr-2 text-cyan-500" /> Projects</h2>
             </div>
@@ -74,8 +97,9 @@ const Projects = () => {
                     </div>
          
             </div>
-        </div>
-    );
-}
-
-export default Projects;
+    
+        </motion.div>
+        );
+    }
+    
+    export default Projects;
