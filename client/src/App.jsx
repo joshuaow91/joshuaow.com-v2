@@ -23,8 +23,8 @@ function App() {
             <Projects/>
           </div>
           <div className=''>
-            <Skills />
-            {/* <SkillsTwo/> */}
+            {/* <Skills /> */}
+            <SkillsTwo/>
           </div>
         </div>
         <div className='flex mb-6'>
