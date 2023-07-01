@@ -21,7 +21,7 @@ const Hero = () => {
                 <h1 className="mt-8 text-3xl sm:text-4xl md:text-4xl lg:text-4xl font-extralight text-stone-300 text-opacity-75 ">Hello, my name is Josh.</h1> 
                 <h2 className="mt-2 sm:min-w-max font-semibold tracking-wide uppercase text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-stone-200 font-paytone">Full-stack Engineer</h2>
                 <span className="mt-6 sm:mt-10 text-lg  font-light text-stone-300 text-opacity-70 max-w-xl"> I specialize in crafting end-to-end software solutions, optimizing each layer to ensure optimal performance and a seamless user experience.</span>
-                <div className="flex gap-4">
+                <div className="flex gap-6 md:gap-4">
                     <a href="#projects" onClick={handleScroll} className="mt-12 rounded-full uppercase bg-green-300 w-40 h-12 text-zinc-800 text-sm font-semibold flex items-center justify-center group border-1 border-green-800 border-r-4 border-b-4">
                     Projects <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
                     </a>
