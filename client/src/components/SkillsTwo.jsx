@@ -1,10 +1,10 @@
 import { motion, useInView } from 'framer-motion';
 import { faCss3, faGitAlt, faHtml5, faJs, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useEffect, useRef } from 'react';
-import tail from '../../public/tailwind.png';
-import express from '../../public/express.png';
-import mongo from '../../public/mongo.png';
+import React, { useRef } from 'react';
+import tail from '/tailwind.png';
+import express from '/express.png';
+import mongo from '/mongo.png';
 import { faCode, faCogs, faDatabase, faGear, faLaptopCode, faLightbulb, faMobileScreen, faServer, faShieldAlt, faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const SkillsTwo = () => {

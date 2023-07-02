@@ -1,12 +1,12 @@
 import React, { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import light from '../../public/lightOne.png';
-import dark from '../../public/darkOne.png';
+import light from '/lightOne.png';
+import dark from '/darkOne.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
-import tail from '../../public/tailwind.png';
-import express from '../../public/express.png';
-import mongo from '../../public/mongo.png';
+import tail from '/tailwind.png';
+import express from '/express.png';
+import mongo from '/mongo.png';
 import { faArrowRightLong, faFolder, faLightbulb, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
@@ -28,17 +28,17 @@ const Projects = () => {
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="flex justify-center md:justify-start mx-4 border-b pb-8 border-cyan-700">
+            <div className="flex justify-center md:justify-start mx-4 md:mx-0 border-b pb-8 border-cyan-700">
                 <h2 className="text-4xl text-white text-opacity-75 font-paytone tracking-wide uppercase self-start ">
                     <FontAwesomeIcon icon={faFolder} className="mr-2 text-cyan-500" /> Work
                 </h2>
             </div>
 
-            <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-4 ">
-                <div className="lg:w-2/3 flex flex-col gap-4 p-4 pl-8 py-8">
-                    <h2 className="text-2xl text-zinc-300 font-light flex flex-col sm:flex-row gap-3 sm:gap-0">
+            <div className="flex flex-col-reverse lg:flex-row-reverse  items-center gap-4 lg:ml-6 ">
+                <div className="lg:w-1/2 flex flex-col gap-4 p-4 pl-8 py-8">
+                    <h2 className="text-2xl text-zinc-300 font-light flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-3 xl:gap-0">
                         BattleOptions (STAT Analytics)
-                        <span className="bg-pink-300 self-start sm:self-center border-r-4 border-b-4 border-pink-700 rounded-full text-xs font-semibold text-zinc-900 tracking-wider py-1 px-3 sm:ml-4">
+                        <span className="bg-pink-300 self-start sm:self-center lg:self-start xl:self-center border-r-4 border-b-4 border-pink-700 rounded-full text-xs font-semibold text-zinc-900 tracking-wider py-1 px-3 sm:ml-4 lg:ml-0 xl:ml-4">
                             Full-Stack
                         </span>
                     </h2>
@@ -70,7 +70,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
-                <div className="w-11/12 md:w-1/2 lg:w-1/3 ">
+                <div className="w-11/12 md:w-1/2 lg:w-1/2 h-full">
                     <div className=" flex flex-col bg-zinc-500 rounded-3xl border-r-8 flex-shrink-0 border-b-8 border-zinc-700" >
                         <motion.div
                             key={isLightMode ? "light" : "dark"}
