@@ -31,7 +31,7 @@ const SkillsTwo = () => {
         <div className='flex flex-col-reverse items-center w-full justify-center p-4  sm:p-8  '>
 
             <div className='flex flex-col-reverse lg:flex-col-reverse justify-between items-center gap-10 w-full xl:gap-20'>
-                <div className='lg:w-full flex flex-col md:flex-row items-center gap-8 px-10 py-9 bg-zinc-600 rounded-3xl border-r-8 border-b-8 border-zinc-800 border-opacity-80'>
+                <div className='lg:w-full flex flex-col md:flex-row items-center gap-8 px-8 py-9 bg-zinc-600 rounded-3xl border-r-8 border-b-8 border-zinc-800 border-opacity-80'>
                     <div className='flex flex-col md:w-1/2 gap-6'>
                     <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase'> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
                     <span className='text-base sm:text-lg  font-light text-white text-opacity-60  leading-7'>
