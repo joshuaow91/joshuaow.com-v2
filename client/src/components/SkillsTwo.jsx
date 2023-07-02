@@ -38,19 +38,19 @@ const SkillsTwo = () => {
                     As a skilled full stack developer, I bring expertise in frontend and backend development, API integration, database management, server-side implementation, security practices, and optimization techniques. With a deep understanding of programming languages and frameworks, I deliver end-to-end solutions that are reliable, secure, and optimized for enhanced user experience.                    
                     </span>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-x-9 font-light select-none w-full md:w-1/2  bg-zinc-600 rounded-3xl border-r-8 border-b-8 border-zinc-800 border-opacity-80 p-8'>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/> React</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-yellow-400 group-hover:animate-ping'/> Javascript (ES6+)</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-green-400 group-hover:animate-ping'/>Node.js</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><img src={express} className='w-8 h-8 group-hover:animate-ping' alt='express js'/>Express JS</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><img src={mongo} className='w-8 h-8 group-hover:animate-ping ' alt='mongo db'/>MongoDB</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><img src={tail} className='w-8 h-8 group-hover:animate-ping ' alt='tailwind css'/>Tailwind CSS</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faHtml5} className='w-8 h-8 text-red-500 group-hover:animate-ping'/>HTML 5</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faCss3} className='w-8 h-8 text-blue-500 group-hover:animate-ping'/>CSS 3</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faGitAlt} className='w-8 h-8 text-amber-400 group-hover:animate-ping'/>Git & GitHub</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faGear} className='w-7 h-7 text-pink-400 group-hover:animate-ping'/>RESTful APIs</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faMobileScreen} className='w-8 h-6 text-indigo-400 group-hover:animate-ping'/>Responsive Design</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faLaptopCode} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/>UI/UX Design</span>
+                <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-zinc-300 gap-y-6 gap-x-9 font-light select-none w-full md:w-1/2  bg-zinc-500 rounded-3xl border-r-8 border-b-8 border-zinc-800 border-opacity-80 p-8'>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/> React</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-yellow-400 group-hover:animate-ping'/> Javascript (ES6+)</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-green-400 group-hover:animate-ping'/>Node.js</span>
+                    <span className='flex items-center gap-4 text-sm group '><img src={express} className='w-8 h-8 group-hover:animate-ping' alt='express js'/>Express JS</span>
+                    <span className='flex items-center gap-4 text-sm group '><img src={mongo} className='w-8 h-8 group-hover:animate-ping ' alt='mongo db'/>MongoDB</span>
+                    <span className='flex items-center gap-4 text-sm group '><img src={tail} className='w-8 h-8 group-hover:animate-ping ' alt='tailwind css'/>Tailwind CSS</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faHtml5} className='w-8 h-8 text-red-400 group-hover:animate-ping'/>HTML 5</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faCss3} className='w-8 h-8 text-blue-400 group-hover:animate-ping'/>CSS 3</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faGitAlt} className='w-8 h-8 text-amber-400 group-hover:animate-ping'/>Git & GitHub</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faGear} className='w-7 h-7 text-pink-400 group-hover:animate-ping'/>RESTful APIs</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faMobileScreen} className='w-8 h-6 text-indigo-400 group-hover:animate-ping'/>Responsive Design</span>
+                    <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faLaptopCode} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/>UI/UX Design</span>
                 </div>
                 </div>
 
