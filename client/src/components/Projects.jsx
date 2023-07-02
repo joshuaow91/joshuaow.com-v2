@@ -60,7 +60,7 @@ const Projects = () => {
                             <img src={tail} className="h-6 w-6 opacity-80" alt="Tailwind CSS" />
                         </li>
                     </ul>
-                    <span className="text-white text-opacity-60 font-light text-lg md:pr-10 leading-7">
+                    <span className="text-white text-opacity-60 font-light text-lg md:pr-10 leading-8">
                         This project automated a complex, hands-on options chain contest, replacing an inefficient Excel spreadsheet with a real-time platform. The system dramatically increased efficiency, freeing company resources for core operations. A dynamic leaderboard, which updates every five minutes, enhances user engagement and creates a high potential for lead generation. Additionally, the inclusion of an all-time leaderboard incentivizes consistent performance, fostering long-term user commitment. This streamlined solution not only addresses operational efficiency but also promotes user interaction and business development.
                     </span>
                     <div className="mt-4 flex justify-between">
