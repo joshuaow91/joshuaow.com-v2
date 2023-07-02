@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import light from '/testlight.png';
-import dark from '/testdark.png';
+import light from '/testlight.avif';
+import dark from '/testdark.avif';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import tail from '/tailwind.png';
