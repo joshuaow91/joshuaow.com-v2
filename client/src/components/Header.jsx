@@ -40,22 +40,22 @@ function Header() {
 
         <ul className="flex gap-5 mt-4 sm:mt-0 sm:gap-8 items-center">
           <li>
-            <a href="https://www.linkedin.com/in/JoshuaOwDev" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/JoshuaOwDev" target="_blank" rel="noreferrer" aria-label='linkedIn link'>
               <FontAwesomeIcon icon={faLinkedinIn} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com/JoshuaOwDev" target="_blank" rel="noreferrer">
+            <a href="https://www.twitter.com/JoshuaOwDev" target="_blank" rel="noreferrer" aria-label='twitter link'>
               <FontAwesomeIcon icon={faTwitter} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
             </a>
           </li>
           <li>
-            <a href="https://www.github.com/joshuaow91" target="_blank" rel="noreferrer">
+            <a href="https://www.github.com/joshuaow91" target="_blank" rel="noreferrer" aria-label='github link'>
               <FontAwesomeIcon icon={faGithub} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
             </a>
           </li>
           <li>
-            <a href="mailto:joshuaow@gmail.com" target="_blank" rel="noreferrer">
+            <a href="mailto:joshuaow@gmail.com" target="_blank" rel="noreferrer" aria-label='send josh an email'>
               <FontAwesomeIcon icon={faEnvelope} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
             </a>
           </li>
