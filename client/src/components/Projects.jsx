@@ -34,7 +34,7 @@ const Projects = () => {
                 </h2>
             </div>
 
-            <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-4 border-b pb-8 md:mx-4 border-cyan-700">
+            <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-4 ">
                 <div className="lg:w-2/3 flex flex-col gap-4 p-4 pl-8 py-8">
                     <h2 className="text-2xl text-zinc-300 font-light flex flex-col sm:flex-row gap-3 sm:gap-0">
                         BattleOptions (STAT Analytics)
