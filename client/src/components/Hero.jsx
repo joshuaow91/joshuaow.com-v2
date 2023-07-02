@@ -64,6 +64,7 @@ const Hero = () => {
         <motion.img 
           ref={imgRef}
           src={Avatar} 
+          alt='Avatar Image'
           initial={{ scale: 0 }}
           animate={{ scale: imgIsInView ? 1 : 0 }}
           transition={spring}

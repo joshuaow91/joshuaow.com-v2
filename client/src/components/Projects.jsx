@@ -80,7 +80,11 @@ const Projects = () => {
                             transition={{ type: "spring", stiffness: 100, damping: 20 }}
                             className="h-full flex items-center p-4 px-4 rounded-xl object-scale-down"
                         >
-                            <motion.img src={isLightMode ? light : dark} alt={isLightMode ? "Light" : "Dark"} className="w-[385px] h-[345px] sm:w-[586px] sm:h-[485px] lg:w-[456px] lg:h-[355px] xl:w-[586px] xl:h-[485px]" />
+                            <motion.img 
+                                src={isLightMode ? light : dark} 
+                                alt={isLightMode ? "Light mode project image" : "Dark mode project image"} 
+                                className="w-[385px] h-[345px] sm:w-[586px] sm:h-[485px] lg:w-[456px] lg:h-[355px] xl:w-[586px] xl:h-[485px]" 
+                            />
                         </motion.div>
                     
                         <div className="flex justify-center gap-4 items-center w-full mb-4">
