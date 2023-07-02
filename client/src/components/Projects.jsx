@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import light from '/lightOne.avif';
-import dark from '/darkOne.avif';
+import light from '/testlight.png';
+import dark from '/testdark.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faNodeJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import tail from '/tailwind.png';
@@ -71,19 +71,19 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="w-11/12 md:w-1/2 lg:w-1/2 h-full flex justify-center">
-                    <div className=" flex flex-col  bg-zinc-500 rounded-3xl border-r-8 flex-shrink-0 border-b-8 border-zinc-700 w-[385px] h-[435px] sm:w-[586px] sm:h-[575px] lg:w-[456px] lg:h-[445px] xl:w-[586px] xl:h-[575px]" >
+                    <div className=" flex flex-col  bg-zinc-500 rounded-3xl border-r-8 flex-shrink-0 border-b-8 border-zinc-700 w-[385px] h-[435px] sm:w-[586px] sm:h-[575px] lg:w-[456px] lg:h-[445px] xl:w-[540px] xl:h-[575px]" >
                         <motion.div
                             key={isLightMode ? "light" : "dark"}
                             initial="hidden"
                             animate="visible"
                             variants={imageVariants}
                             transition={{ type: "spring", stiffness: 100, damping: 20 }}
-                            className="h-full flex items-center p-4 px-4 rounded-xl object-scale-down"
+                            className="h-full flex items-center p-4 px-4 rounded-xl "
                         >
                             <motion.img 
                                 src={isLightMode ? light : dark} 
                                 alt={isLightMode ? "Light mode project image" : "Dark mode project image"} 
-                                className="w-[385px] h-[345px] sm:w-[586px] sm:h-[485px] lg:w-[456px] lg:h-[355px] xl:w-[586px] xl:h-[485px]" 
+                                className="w-[385px] h-[345px] sm:w-[586px] sm:h-[485px] lg:w-[456px] lg:h-[355px] xl:w-[500px] xl:h-[480px] object-scale-down " 
                             />
                         </motion.div>
                     
