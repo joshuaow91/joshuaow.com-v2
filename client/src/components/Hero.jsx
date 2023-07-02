@@ -32,7 +32,7 @@ const Hero = () => {
       transition={{ duration: 0.5 }}
       className="flex flex-col-reverse lg:flex-row justify-center gap-8 lg:gap-6 xl:gap-16 p-2 sm:p-6 w-full items-center "
     >
-      <div className="flex flex-col w-full ml-36 sm:ml-0 pl-2 sm:p-6">
+      <div className="flex flex-col w-full ml-12 sm:ml-0 pl-2 sm:p-6">
 
             <h1 className="mt-8  text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-extralight text-stone-300 text-opacity-75 ">
             Hello, my name is Josh.
@@ -40,7 +40,7 @@ const Hero = () => {
             <h2 className="mt-2  sm:min-w-max font-semibold tracking-wide uppercase text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl text-stone-200 font-paytone">
             Full-stack Engineer
             </h2>
-            <span className="mt-6 mr-28 sm:mr-0 sm:mt-10 text-lg font-light text-stone-300 text-opacity-70 md:max-w-xl">
+            <span className="mt-6 mr-12 sm:mr-0 sm:mt-10 text-lg font-light text-stone-300 text-opacity-70 md:max-w-xl">
             I specialize in crafting end-to-end software solutions, optimizing each layer to ensure optimal performance
             and a seamless user experience.
             </span>
