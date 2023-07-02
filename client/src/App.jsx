@@ -8,7 +8,7 @@ import SkillsTwo from './components/SkillsTwo'
 function App() {
 
   return (
-    <div className=' bg-background h-auto w-full max-w-screen-xl mx-auto '>
+    <div className=' bg-background h-auto w-full max-w-screen-xl mx-auto selection:bg-pink-500'>
       <div className='flex max-w-screen-xl'>
         <Header/>
       </div>

@@ -38,7 +38,7 @@ const Projects = () => {
                 <div className="lg:w-1/2 flex flex-col gap-4 p-4 pl-8 py-8">
                     <h2 className="text-2xl text-zinc-300 font-light flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-3 xl:gap-0">
                         BattleOptions (STAT Analytics)
-                        <span className="bg-pink-300 self-start sm:self-center lg:self-start xl:self-center border-r-4 border-b-4 border-pink-700 rounded-full text-xs font-semibold text-zinc-900 tracking-wider py-1 px-3 sm:ml-4 lg:ml-0 xl:ml-4">
+                        <span className="bg-pink-300 self-start sm:self-center lg:self-start xl:self-center border-r-4 border-b-4 border-pink-700 select-none rounded-full text-xs font-semibold text-zinc-900 tracking-wider py-1 px-3 sm:ml-4 lg:ml-0 xl:ml-4">
                             Full-Stack
                         </span>
                     </h2>
