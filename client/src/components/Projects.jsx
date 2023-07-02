@@ -71,7 +71,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="w-11/12 md:w-1/2 lg:w-1/2 h-full flex justify-center">
-                    <div className=" flex flex-col  bg-zinc-500 rounded-3xl border-r-8 flex-shrink-0 border-b-8 border-zinc-700 w-[418px] h-[468px] sm:w-[586px] sm:h-[575px] lg:w-[456px] lg:h-[445px] xl:w-[586px] xl:h-[575px]" >
+                    <div className=" flex flex-col  bg-zinc-500 rounded-3xl border-r-8 flex-shrink-0 border-b-8 border-zinc-700 w-[385px] h-[435px] sm:w-[586px] sm:h-[575px] lg:w-[456px] lg:h-[445px] xl:w-[586px] xl:h-[575px]" >
                         <motion.div
                             key={isLightMode ? "light" : "dark"}
                             initial="hidden"
@@ -80,7 +80,7 @@ const Projects = () => {
                             transition={{ type: "spring", stiffness: 100, damping: 20 }}
                             className="h-full flex items-center p-4 px-4 rounded-xl object-scale-down"
                         >
-                            <motion.img src={isLightMode ? light : dark} alt={isLightMode ? "Light" : "Dark"} className="w-[418px] h-[378px] sm:w-[586px] sm:h-[485px] lg:w-[456px] lg:h-[355px] xl:w-[586px] xl:h-[485px]" />
+                            <motion.img src={isLightMode ? light : dark} alt={isLightMode ? "Light" : "Dark"} className="w-[385px] h-[345px] sm:w-[586px] sm:h-[485px] lg:w-[456px] lg:h-[355px] xl:w-[586px] xl:h-[485px]" />
                         </motion.div>
                     
                         <div className="flex justify-center gap-4 items-center w-full mb-4">
