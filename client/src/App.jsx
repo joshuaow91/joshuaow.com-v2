@@ -13,7 +13,7 @@ function App() {
         <Header/>
       </div>
       <div className=' flex justify-center flex-col gap-20 mt-32 '>
-        <div className='flex justify-center'>
+        <div className=''>
           <Hero />
         </div>
 

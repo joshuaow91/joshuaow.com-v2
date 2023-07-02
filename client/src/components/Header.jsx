@@ -38,7 +38,7 @@ function Header() {
       <nav className='flex justify-between w-full items-center'>
         <a href="#" onClick={handleScrollToTop} className='font-bold text-2xl text-white text-opacity-75'>joshuaow<span className=' text-cyan-600 text-4xl'>.</span></a>
 
-        <ul className="flex gap-3 mt-4 sm:mt-0 sm:gap-8 items-center">
+        <ul className="flex gap-4 mt-4 sm:mt-0 sm:gap-8 items-center">
           <li>
             <a href="https://www.linkedin.com/in/JoshuaOwDev" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedinIn} className="text-stone-300 hover:text-stone-500 hover:translate-y-1 transition-all duration-300 ease-in-out h-5 w-5 self-center"/>
