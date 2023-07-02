@@ -30,15 +30,15 @@ const SkillsTwo = () => {
         >
         <div className='flex flex-col-reverse items-center w-full justify-center p-4  sm:p-8  '>
 
-            <div className='flex flex-col-reverse lg:flex-col-reverse justify-between items-center gap-10 w-full xl:gap-20'>
-                <div className='lg:w-full flex flex-col md:flex-row items-center gap-8 px-4 sm:pl-8 py-6 bg-zinc-600 rounded-3xl border-r-8 border-b-8 border-zinc-800 border-opacity-80'>
-                    <div className='flex flex-col md:w-1/2 gap-6'>
+            <div className='flex flex-col-reverse lg:flex-col-reverse justify-between items-center gap-10 w-full xl:gap-32'>
+                <div className='lg:w-full flex flex-col md:flex-row items-center gap-8 md:gap-12 px-4 sm:pl-8 py-6 '>
+                    <div className='flex flex-col md:w-1/2  gap-10'>
                     <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase '> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
                     <span className='text-base sm:text-lg  font-light text-white text-opacity-60 leading-7 '>
                     As a skilled full stack developer, I bring expertise in frontend and backend development, API integration, database management, server-side implementation, security practices, and optimization techniques. With a deep understanding of programming languages and frameworks, I deliver end-to-end solutions that are reliable, secure, and optimized for enhanced user experience.                    
                     </span>
-                    </div>
-                    <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-x-9 font-light rounded-3xl select-none   '>
+                </div>
+                <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-x-9 font-light select-none md:w-1/2  bg-zinc-600 rounded-3xl border-r-8 border-b-8 border-zinc-800 border-opacity-80 p-8'>
                     <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/> React</span>
                     <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-yellow-400 group-hover:animate-ping'/> Javascript (ES6+)</span>
                     <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-green-400 group-hover:animate-ping'/>Node.js</span>

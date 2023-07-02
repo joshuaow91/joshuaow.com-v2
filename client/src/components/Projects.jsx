@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import light from '/testlight.avif';
 import dark from '/testdark.avif';
@@ -14,6 +14,11 @@ const Projects = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
+    useEffect(() => {
+        if (isInView) {
+            setLightMode(true);
+        }
+    }, [isInView]);
 
     const imageVariants = {
         hidden: { opacity: 0, rotate: 0, scale: 0 },
@@ -75,7 +80,7 @@ const Projects = () => {
                         <motion.div
                             key={isLightMode ? "light" : "dark"}
                             initial="hidden"
-                            animate="visible"
+                            animate={isInView ? 'visible' : 'hidden'}
                             variants={imageVariants}
                             transition={{ type: "spring", stiffness: 100, damping: 20 }}
                             className="h-full flex items-center p-4 px-4 rounded-xl "
