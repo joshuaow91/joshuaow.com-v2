@@ -75,6 +75,7 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
+
                 <div className="w-11/12 md:w-1/2 lg:w-1/2 h-full flex justify-center">
                     <div className=" flex flex-col  bg-zinc-500 rounded-3xl border-r-8 flex-shrink-0 border-b-8 border-zinc-700 w-[385px] h-[435px] sm:w-[586px] sm:h-[575px] lg:w-[456px] lg:h-[445px] xl:w-[540px] xl:h-[575px]" >
                         <motion.div
@@ -110,7 +111,7 @@ const Projects = () => {
                                 <FontAwesomeIcon icon={faMoon} className="mr-2 text-yellow-100" /> Dark
                             </button>
                         </div>
-                    </div>
+                    </div>    
                 </div>
             </div>
         </motion.div>

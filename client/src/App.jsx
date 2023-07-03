@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import SkillsTwo from './components/SkillsTwo'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -12,17 +13,20 @@ function App() {
       <div className='flex max-w-screen-xl'>
         <Header/>
       </div>
-      <div className=' flex justify-center flex-col gap-20 mt-32 '>
+      <div className=' flex justify-center flex-col gap-20 mt-32'>
         <div className=''>
           <Hero />
         </div>
 
-        <div className='flex flex-col-reverse items-center gap-10 sm:gap-20'>
+        <div className='flex flex-col items-center gap-10 sm:gap-20'>
+          <div className=''>
+            <SkillsTwo/>
+          </div>
           <div className='' id='projects'>
             <Projects/>
           </div>
-          <div className=''>
-            <SkillsTwo/>
+          <div className='w-full max-w-screen-sm' id='contact'>
+            <Contact/>
           </div>
         </div>
         <div className='flex mb-6'>

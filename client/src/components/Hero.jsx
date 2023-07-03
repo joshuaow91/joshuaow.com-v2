@@ -18,6 +18,14 @@ const Hero = () => {
     });
   };
 
+  const handleScrollContact = (event) => {
+    event.preventDefault();
+    const contactSection = document.getElementById('contact');
+    contactSection.scrollIntoView({
+      behavior: 'smooth',
+    });
+  };
+
   const spring = {
     type: "spring",
     stiffness: 5000,
@@ -30,7 +38,7 @@ const Hero = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col-reverse lg:flex-row justify-center gap-8 lg:gap-6 xl:gap-16 p-2 pl-8 sm:p-6 w-full items-center"
+      className="flex flex-col-reverse lg:flex-row justify-center gap-8 lg:gap-6 xl:gap-16 p-2 pl-8 sm:p-6 w-full items-center "
     >
       <div className="flex flex-col sm:p-6">
         <h1 className="mt-8 text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl font-extralight text-stone-300 text-opacity-75 ">
@@ -52,7 +60,8 @@ const Hero = () => {
             Projects <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
           </a>
           <a
-            href="mailto:joshuaow@gmail.com"
+            href="#contact"
+            onClick={handleScrollContact}
             className="mt-12 rounded-full uppercase  w-40 h-12 text-zinc-800 text-sm font-semibold  flex items-center justify-center group border-1 border-zinc-600 border-r-4 border-b-4 bg-zinc-300"
           >
             Contact <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
