@@ -25,7 +25,7 @@ function App() {
           <div className='' id='projects'>
             <Projects/>
           </div>
-          <div className='w-full max-w-screen-sm' id='contact'>
+          <div className='mx-4 mt-10 max-w-screen-sm' id='contact'>
             <Contact/>
           </div>
         </div>

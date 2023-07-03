@@ -12,7 +12,7 @@ const Contact = () => {
 
     return (
         <motion.div
-            className="flex justify-center w-full gap-10 md:p-4  bg-slate-600 rounded-3xl border-r-8 border-b-8 border-slate-800 border-opacity-90"
+            className="flex flex-col sm:flex-row justify-center w-full gap-6 sm:gap-10 p-3 md:px-10 md:py-4  bg-slate-600 rounded-3xl border-r-8 border-b-8 border-slate-800 border-opacity-90"
             ref={ref}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
@@ -20,18 +20,18 @@ const Contact = () => {
         >
 
             <div className="flex  justify-center w-full md:justify-start self-start  ">
-                <h2 className="text-4xl text-white text-opacity-75 font-paytone tracking-wide uppercase self-start flex flex-col-reverse items-center gap-2">
-                    <FontAwesomeIcon icon={faAddressCard} className="mr-2 w-48 h-40 text-cyan-500" /> Contact
+                <h2 className="text-4xl text-white text-opacity-75 font-paytone tracking-wide uppercase self-start flex sm:flex-col-reverse items-center gap-2">
+                    <FontAwesomeIcon icon={faAddressCard} className="mr-2 sm:w-40 sm:h-40 text-cyan-500" /> Contact
                 </h2>
             </div>
 
             <div className="flex flex-col items-center justify-center gap-4 w-full">
 
                 <div className="flex flex-col items-center gap-3">
-                    <span className="text-zinc-400 text-lg">Find me on social media or send me an email to get in touch.</span>
+                    <span className="text-zinc-400 px-8 sm:px-0 text-base sm:text-lg">Find me on social media or send me an email to get in touch.</span>
                 </div>
 
-                <div className="flex flex-col items-center gap-5 ">
+                <div className="flex flex-row-reverse gap-10 sm:flex-col items-center sm:gap-5 ">
                     <ul className="flex gap-5  sm:gap-8 items-center">
                         <li>
                             <a href="https://www.linkedin.com/in/JoshuaOwDev" target="_blank" rel="noreferrer" aria-label='linkedIn link'>
