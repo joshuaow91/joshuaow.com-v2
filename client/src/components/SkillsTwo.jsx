@@ -64,7 +64,7 @@ const SkillsTwo = () => {
                         <span className='flex items-end pb-4 gap-2 text-zinc-700 text-xs uppercase font-semibold bg-sky-200 h-40 justify-center rounded-3xl border-1 border-cyan-700 border-r-8 border-b-8 hover:skew-y-2'>
                             <span className='flex flex-col items-center gap-5'>
                                 <FontAwesomeIcon icon={faCode} className='w-16 h-16 text-sky-400 flex'/> 
-                                Web Develolpment
+                                Web Development
                             </span>                  
                         </span>
                         </motion.div>
