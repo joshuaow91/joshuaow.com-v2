@@ -38,7 +38,7 @@ const SkillsTwo = () => {
                     As a skilled full stack developer, I bring expertise in frontend and backend development, API integration, database management, server-side implementation, security practices, and optimization techniques. With a deep understanding of programming languages and frameworks, I deliver end-to-end solutions that are reliable, secure, and optimized for enhanced user experience.                    
                     </span>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 text-zinc-300 gap-y-6 gap-x-9 font-light select-none w-full md:w-full    p-8'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 text-zinc-300 gap-y-6 gap-x-9 font-light select-none w-full md:w-full mt-8 ml-8 sm:ml-12'>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/> React</span>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-yellow-400 group-hover:animate-ping'/> Javascript</span>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-green-400 group-hover:animate-ping'/>Node.js</span>
