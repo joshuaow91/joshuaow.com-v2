@@ -27,7 +27,7 @@ const Projects = () => {
 
     return (
         <motion.div
-            className="flex flex-col w-full gap-10 md:p-8 md:pl-12"
+            className="flex flex-col w-full gap-10 md:p-8 md:pl-12 "
             ref={ref}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
@@ -39,8 +39,8 @@ const Projects = () => {
                 </h2>
             </div>
 
-            <div className="flex flex-col-reverse lg:flex-row-reverse  items-center gap-4 lg:ml-6 ">
-                <div className="lg:w-1/2 flex flex-col gap-4 p-4 pl-8 py-8">
+            <div className="flex flex-col-reverse lg:flex-row  items-center gap-4 lg:ml-6 ">
+                <div className="lg:w-1/2 flex flex-col gap-8 p-4 pl-8 py-8">
                     <h2 className="text-2xl text-zinc-300 font-light flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-3 xl:gap-0">
                         BattleOptions (STAT Analytics)
                         <span className="bg-pink-300 self-start sm:self-center lg:self-start xl:self-center border-r-4 border-b-4 border-pink-700 select-none rounded-full text-xs font-semibold text-zinc-900 tracking-wider py-1 px-3 sm:ml-4 lg:ml-0 xl:ml-4">

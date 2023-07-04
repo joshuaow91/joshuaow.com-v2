@@ -28,17 +28,17 @@ const SkillsTwo = () => {
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : -50 }}
             transition={{ y: spring, opacity: fadeIn }}
         >
-        <div className='flex flex-col-reverse items-center w-full justify-center p-3  sm:p-8  '>
+        <div className='flex flex-col-reverse items-center w-full justify-center p-3  sm:p-8 bg-slate-700 w-screen -skew-y-3'>
 
-            <div className='flex flex-col-reverse lg:flex-col-reverse justify-between items-center gap-10 w-full sm:gap-32'>
-                <div className='lg:w-full flex flex-col md:flex-row items-center gap-8 md:gap-12 px-4 sm:pl-8 py-6 '>
-                    <div className='flex flex-col md:w-1/2  gap-10 '>
+            <div className='flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-10 w-full sm:gap-8 max-w-screen-xl skew-y-3 py-16'>
+                <div className='lg:w-full flex flex-col  items-center gap-8 md:gap-12 px-4 sm:pl-8 py-6 '>
+                    <div className='flex flex-col md:w-full  gap-10 '>
                     <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase border-b pb-6 border-cyan-700 w-full sm:w-11/12'> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
                     <span className='text-base sm:text-lg  font-light text-white text-opacity-60 leading-7 '>
                     As a skilled full stack developer, I bring expertise in frontend and backend development, API integration, database management, server-side implementation, security practices, and optimization techniques. With a deep understanding of programming languages and frameworks, I deliver end-to-end solutions that are reliable, secure, and optimized for enhanced user experience.                    
                     </span>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-zinc-300 gap-y-6 gap-x-9 font-light select-none w-full md:w-1/2  bg-zinc-500 rounded-3xl border-r-8 border-b-8 border-zinc-800 border-opacity-80 p-8'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 text-zinc-300 gap-y-6 gap-x-9 font-light select-none w-full md:w-full    p-8'>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/> React</span>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-yellow-400 group-hover:animate-ping'/> Javascript</span>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-green-400 group-hover:animate-ping'/>Node.js</span>
@@ -54,7 +54,7 @@ const SkillsTwo = () => {
                 </div>
                 </div>
 
-                    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-12 lg:gap-6 w-full select-none p-4 md:p-0 mr-3 sm:mr-0'>
+                    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-6 md:gap-12 lg:gap-6 w-full lg:w-1/2 select-none p-4 md:p-0 mr-3 sm:mr-0'>
                         <motion.div 
                             ref={ref}
                             initial={{ opacity: 0, y: -50, rotate: 180 }} 
