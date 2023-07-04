@@ -28,7 +28,7 @@ const SkillsTwo = () => {
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : -50 }}
             transition={{ y: spring, opacity: fadeIn }}
         >
-        <div className='flex flex-col-reverse items-center w-full justify-center p-3  sm:p-8 bg-slate-700 w-screen -skew-y-3'>
+        <div className='flex flex-col-reverse items-center justify-center p-3  sm:p-8 bg-slate-700 w-screen -skew-y-3'>
 
             <div className='flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-10 w-full sm:gap-8 max-w-screen-xl skew-y-3 py-16'>
                 <div className='lg:w-full flex flex-col  items-center gap-8 md:gap-12 px-4 sm:pl-8 py-6 '>
