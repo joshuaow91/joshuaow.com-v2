@@ -14,12 +14,12 @@ function App() {
         <Header/>
       </div>
       <div className=' flex justify-center flex-col gap-20 mt-32'>
-        <div className='mb-12'>
+        <div className=''>
           <Hero />
         </div>
 
         <div className='flex flex-col items-center gap-10 sm:gap-20'>
-          <div className='my-16'>
+          <div className=''>
             <SkillsTwo/>
           </div>
           <div className='' id='projects'>
