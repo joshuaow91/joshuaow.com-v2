@@ -57,12 +57,12 @@ const SkillsTwo = () => {
             <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-10 w-full sm:gap-8'>
                 <div className='lg:w-3/4 flex flex-col  items-center gap-8 md:gap-6 px-4 sm:pl-8 py-6 '>
                     <div className='flex flex-col md:w-full  gap-10 '>
-                    <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase  w-full'> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
+                    <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase border-b pb-6 border-cyan-700 w-full'> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
                     <span className='text-base  sm:text-lg  font-light text-white text-opacity-60 leading-7 lg:pr-8'>
                     As a skilled full stack developer, I bring expertise in frontend and backend development, API integration, database management, server-side implementation, security practices, and optimization techniques. With a deep understanding of programming languages and frameworks, I deliver end-to-end solutions that are reliable, secure, and optimized for enhanced user experience.                    
                     </span>
                 </div>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 text-zinc-300 gap-y-6 gap-x-9 font-light select-none w-full md:w-full mt-8 ml-8 sm:ml-0'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 text-zinc-300 gap-y-6 gap-x-9 font-light select-none w-full md:w-full mt-8 ml-8 sm:ml-12'>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/> React</span>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-yellow-400 group-hover:animate-ping'/> Javascript</span>
                     <span className='flex items-center gap-4 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-green-400 group-hover:animate-ping'/>Node.js</span>
@@ -78,7 +78,7 @@ const SkillsTwo = () => {
                 </div>
                 </div>
 
-                    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-6 md:gap-12 lg:gap-10 w-full lg:w-1/2 select-none p-4 md:p-0 sm:mr-3'>
+                    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-6 md:gap-12 lg:gap-10 w-full lg:w-1/2 select-none p-4 md:p-0 mr-3 md:px-8 sm:mr-3'>
                         <AnimatedDiv>
                         <span className='flex items-end pb-4 gap-2 text-zinc-700 text-xs uppercase font-semibold bg-sky-200 h-40 justify-center rounded-3xl border-1 border-cyan-700 border-r-8 border-b-8 hover:skew-y-2'>
                             <span className='flex flex-col items-center gap-5'>
