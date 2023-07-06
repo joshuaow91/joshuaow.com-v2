@@ -18,7 +18,7 @@ function App() {
           <Hero />
         </div>
 
-        <div className='flex flex-col items-center gap-10 sm:gap-20'>
+        <div className='flex flex-col items-center justify-center gap-10 sm:gap-20'>
           <div className=''>
             <SkillsTwo/>
           </div>
