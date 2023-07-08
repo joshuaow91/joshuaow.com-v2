@@ -52,9 +52,10 @@ const SkillsTwo = () => {
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : -50 }}
             transition={{ y: spring, opacity: fadeIn }}
         >
-        <div className='flex flex-col-reverse items-center w-full justify-center p-3'>
+        {/* <div className='grid grid-cols-1 p-3'> */}
 
-            <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-10 w-full sm:gap-8'>
+            <div className='flex flex-col-reverse lg:flex-row items-center gap-10 w-full sm:gap-8 '>
+
                 <div className='lg:w-3/4 flex flex-col  items-center gap-8 md:gap-6 px-4 sm:pl-8 py-6 '>
                     <div className='flex flex-col md:w-full  gap-10 '>
                     <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase border-b pb-6 border-cyan-700 w-full'> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
@@ -78,7 +79,7 @@ const SkillsTwo = () => {
                 </div>
                 </div>
 
-                    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-6 md:gap-12 lg:gap-10 w-full lg:w-1/2 select-none p-4 md:p-0 mr-3 md:px-8 sm:mr-3'>
+                <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 gap-6 md:gap-12 lg:gap-8 w-full lg:w-1/2 select-none p-4 md:p-0 mr-3 md:pl-16 sm:mr-3'>
                         <AnimatedDiv>
                         <span className='flex items-end pb-4 gap-2 text-zinc-700 text-xs uppercase font-semibold bg-sky-200 h-40 justify-center rounded-3xl border-1 border-cyan-700 border-r-8 border-b-8 hover:skew-y-2'>
                             <span className='flex flex-col items-center gap-5'>
@@ -130,22 +131,7 @@ const SkillsTwo = () => {
                     </div>  
                 </div>
 
-                {/* <div className='grid w-1/3 grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-3 gap-x-9 font-light border-1 border-zinc-800 border-opacity-80 rounded-3xl p-4 px-6 border-r-8 border-b-8 bg-zinc-600'>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faReact} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/> React</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faJs} className='w-8 h-8 text-yellow-400 group-hover:animate-ping'/> Javascript (ES6+)</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faNodeJs} className='w-8 h-8 text-green-400 group-hover:animate-ping'/>Node.js</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faHtml5} className='w-8 h-8 text-red-500 group-hover:animate-ping'/>HTML 5</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faCss3} className='w-8 h-8 text-blue-500 group-hover:animate-ping'/>CSS 3</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><img src={tail} className='w-8 h-8 group-hover:animate-ping opacity-90'/>Tailwind CSS</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faGitAlt} className='w-8 h-8 text-amber-400 group-hover:animate-ping'/>Git & GitHub</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><img src={mongo} className='w-8 h-8 group-hover:animate-ping opacity-80'/>MongoDB</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faGear} className='w-7 h-7 text-pink-400 group-hover:animate-ping'/>RESTful APIs</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faMobileScreen} className='w-8 h-6 text-indigo-400 group-hover:animate-ping'/>Responsive Design</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><img src={express} className='w-8 h-8 group-hover:animate-ping'/>Express JS</span>
-                    <span className='flex items-center gap-4 text-zinc-400 text-sm group '><FontAwesomeIcon icon={faLaptopCode} className='w-8 h-8 text-sky-400 group-hover:animate-ping'/>UI/UX Design</span>
-                </div> */}
-
-        </div>
+        {/* </div> */}
         </motion.div>
     );
 };
