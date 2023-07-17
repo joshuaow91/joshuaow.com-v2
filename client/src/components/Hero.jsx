@@ -55,16 +55,16 @@ const Hero = () => {
           <a
             href="#projects"
             onClick={handleScroll}
-            className="mt-12 rounded-full uppercase bg-green-300 w-40 h-12 text-zinc-800 text-sm font-semibold flex items-center justify-center group border-1 border-green-800 border-r-4 border-b-4"
+            className="mt-12 rounded-full uppercase bg-green-300 w-44 h-12 text-zinc-800 text-xs font-semibold flex items-center justify-center group border-1 border-green-800 border-r-4 border-b-4"
           >
-            Projects <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
+            See my work <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
           </a>
           <a
             href="#contact"
             onClick={handleScrollContact}
-            className="mt-12 rounded-full uppercase  w-40 h-12 text-zinc-800 text-sm font-semibold  flex items-center justify-center group border-1 border-zinc-600 border-r-4 border-b-4 bg-zinc-300"
+            className="mt-12 rounded-full uppercase  w-44 h-12 text-zinc-800 text-xs font-semibold  flex items-center justify-center group border-1 border-zinc-600 border-r-4 border-b-4 bg-zinc-300"
           >
-            Contact <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
+            start a project <FontAwesomeIcon icon={faArrowRightLong} className="ml-2 group-hover:rotate-180 transition-transform duration-500 ease-in-out" />
           </a>
         </div>
       </div>
