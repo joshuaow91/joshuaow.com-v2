@@ -59,7 +59,7 @@ const SkillsTwo = () => {
 
                 <div className='lg:w-3/4 flex flex-col  items-center gap-8 md:gap-6 px-4 sm:pl-8 py-6 '>
                     <div className='flex flex-col md:w-full  gap-10 '>
-                    <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase border-b pb-6 border-cyan-700 w-full'> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
+                    <h2 className=' text-3xl sm:text-4xl text-white text-opacity-75 tracking-wide self-start font-paytone uppercase  w-full'> <FontAwesomeIcon icon={faLightbulb} className='mr-2 text-amber-400' /> Proficiencies </h2> 
                     <span className='text-base  sm:text-lg  font-light text-white text-opacity-60 leading-7 lg:pr-8'>
                     As a skilled full stack developer, I bring expertise in frontend and backend development, API integration, database management, server-side implementation, security practices, and optimization techniques. With a deep understanding of programming languages and frameworks, I deliver end-to-end solutions that are reliable, secure, and optimized for enhanced user experience.                    
                     </span>
