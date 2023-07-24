@@ -77,7 +77,7 @@ const Hero = () => {
           initial={{ scale: 0 }}
           animate={{ scale: imgIsInView ? 1 : 0 }}
           transition={spring}
-          className="border-zinc-800 bg-zinc-700 rounded-full border-r-8 border-b-8 border-1 brightness-100 hover:brightness-75 transition-all ease-in-out duration-500 w-60 h-60 md:h-80 md:w-80" 
+          className="border-zinc-800 bg-zinc-600 rounded-full border-r-8 border-b-8 border-1 brightness-100 hover:brightness-75 transition-all ease-in-out duration-500 w-60 h-60 md:h-80 md:w-80" 
         />
       </div>
     </motion.div>
